@@ -1,0 +1,37 @@
+// ***************************
+// Put here some global styles
+// ***************************
+
+//@import "normalize.css";
+//@import "react-toastify/dist/ReactToastify.css";
+//@import "draft-js/dist/Draft.css";
+@import "colors.scss";
+//@import "cropperjs/dist/cropper.css";
+
+html {
+  font-size: 10px;
+  background-color: $greyLight;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --toastify-color-info: #0288d1; //info-dark
+  --toastify-color-success: #388e3c; //success-dark
+  --toastify-color-error: #d32f2f; //error-dark
+}
+
+#root {
+  display: flex;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}

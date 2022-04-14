@@ -1,0 +1,19 @@
+@import "../../../assets/styles/colors.scss";
+
+.dustbin {
+  background: $grey900_70;
+  border-radius: 3px;
+  & > div {
+    opacity: 0;
+  }
+}
+
+.isDragging {
+  background-color: $grey100_70;
+}
+
+.isVisible {
+  & > div {
+    opacity: 1;
+  }
+}

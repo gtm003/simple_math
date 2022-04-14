@@ -1,0 +1,55 @@
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.table {
+  padding: 1rem;
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.hero {
+  display: flex;
+  height: 30px;
+  width: 100%;
+  padding: 0.5rem;
+  text-align: center;
+  gap: 1rem;
+}
+
+.id {
+  width: 15px;
+  text-align: right;
+}
+
+.name {
+  flex-grow: 2;
+  text-align: left;
+}
+
+.date {
+  width: 80px;
+}
+
+.time {
+  width: 70px;
+  text-align: right;
+}
+
+.cat {
+  height: 250px;
+}

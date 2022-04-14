@@ -1,0 +1,15 @@
+.answerCard {
+  //width: 45px;
+  //height: 45px;
+  //padding: 1rem;
+  position: absolute;
+}
+
+.isDragging {
+  opacity: 0;
+}
+
+.isHidden {
+  display: none;
+  transition: all 1s ease 0s;
+}

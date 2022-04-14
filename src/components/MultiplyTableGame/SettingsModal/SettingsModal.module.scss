@@ -1,0 +1,34 @@
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.4rem;
+}
+
+.multipliers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 2rem;
+}
+
+.input {
+  width: 100px;
+  padding-left: 1rem;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 190px;
+}
+
+.cat {
+  width: 300px !important;
+}

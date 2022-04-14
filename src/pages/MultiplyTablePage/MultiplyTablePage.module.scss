@@ -1,0 +1,15 @@
+@import '../../assets/styles/colors.scss';
+@import '../../assets/styles/breakpoints.scss';
+
+.container {
+  background: $indigo900;
+  //padding: 1rem 3rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  gap: 2rem;
+  @media screen and (min-width: $lg) {
+    font-size: 2rem;
+  }
+}

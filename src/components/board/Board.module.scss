@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  //flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  //width: 100%;
+  //border: solid black 2px;
+  //flex-grow: 1;
+}
+
+.board {
+  height: 600px;
+  width: 600px;
+  border: solid 2px black;
+}
