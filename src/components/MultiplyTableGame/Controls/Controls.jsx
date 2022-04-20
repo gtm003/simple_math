@@ -42,10 +42,6 @@ export const Controls = ({
     }
   }, [isFinish, seconds, minutes, hours, updateTime, timeToString, pause]);
 
-  const testReset = () => {
-    reset(0, false);
-  };
-
   return (
     <Box className={styles.control}>
       <Button size="large" variant="contained">
@@ -68,9 +64,6 @@ export const Controls = ({
         </Button>
         <Button onClick={startBtnClick}>{isRunning ? "PAUSE" : "START"}</Button>
         <Button onClick={openHeroesModal}>
-          <EmojiEventsIcon />
-        </Button>
-        <Button onClick={testReset}>
           <EmojiEventsIcon />
         </Button>
       </ButtonGroup>
